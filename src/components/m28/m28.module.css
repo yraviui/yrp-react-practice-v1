@@ -1,0 +1,8 @@
+.container{
+    display: flex; flex-direction: column;
+    margin: 0; padding: 0; background: #92b5fc;
+    width: 100%; height: 500px;
+}
+.header{ flex: 1; min-width: 80px; max-height: 80px; background: #f1f1f1;}
+.main{ flex: 2; height: 100%; background-color: #FFF;}
+.footer{ flex: 1; min-width: 80px; max-height: 80px; background: #000; color: #FFF;}

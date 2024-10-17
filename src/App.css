@@ -1,0 +1,61 @@
+body {
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  background-color: #f1f1f1;
+}
+
+.leftNav {
+  flex: 1;
+  min-width: 250px;
+  max-width: 250px;
+  border-right: 1px dotted #4CAF50;
+  padding: 5px;
+}
+
+.main {
+  padding: 5px;
+  width: 100%;
+}
+
+.mainRouter {
+  padding: 25px;
+}
+
+.p10 {
+  padding: 10px;
+}
+
+p {
+  margin: 10px;
+}
+
+/* Pagination */
+.pagination {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.pagination li {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pagination li.active {
+  background-color: #4CAF50;
+  color: white;
+  cursor: default;
+}
+
+.pagination li:hover:not(.active) {
+  background-color: #ddd;
+}
+
+/* Pagination */
